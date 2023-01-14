@@ -1,0 +1,50 @@
+body {
+    background-color: transparent;
+    margin-top: 4px;
+    padding-bottom: 2.5em;
+}
+
+#container {
+    box-shadow: 0px 0px 4px 1px green;
+    border-radius: 20px;
+    width: 30em;
+    height: 23em;
+    background: #ff00ccc4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #333399b9, #ff00cccc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #333399c2, #ff00ccc0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h2{
+    color:#333399b9;
+    text-shadow:#fffcfef8 0px 1px 12px;
+
+}
+
+#form {
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 0.5em;
+}
+
+label {
+    font-weight: 630;
+    color: white;
+    text-shadow: green 0px 2px 1px;
+
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.568) ;
+}
+
+input:hover {
+    box-shadow: 0px 0px 3px 2px #333399b9;
+
+}
+
+button {
+    width: 10em;
+    font-weight: 650;
+    letter-spacing: 2px;
+}

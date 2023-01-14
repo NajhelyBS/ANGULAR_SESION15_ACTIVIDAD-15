@@ -1,0 +1,23 @@
+<body>
+    <div class="container d-flex justify-content-center">
+        <div  id="container">
+        <h2 class="text-center mt-3">Formulario de Registro</h2>
+
+        <div id="form">
+        <label class="form-label">Nombre:</label>
+        <input type="text" name="name" id="name" class="form-control" [(ngModel)]="name"></div>
+
+        <div id="form">
+            <label class="form-label">Apellidos:</label>
+            <input type="text" name="apellidos" id="apellidos" class="form-control" [(ngModel)]="apellidos"></div>
+
+        <div id="form">
+            <label class="form-label">Carrera:</label>
+            <input type="text" name="career" id="career" class="form-control" [(ngModel)]="carrera"></div>
+    
+        <div id="form" class="mt-3 d-flex justify-content-center">
+            <button class="btn btn-success" (click)="insertarDatos()">Enviar </button>
+        </div>
+        </div>
+    </div>
+</body>

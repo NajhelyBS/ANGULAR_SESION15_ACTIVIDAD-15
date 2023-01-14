@@ -1,0 +1,25 @@
+<body>
+  
+<p class="text-center">Formulario de Registro</p>
+
+<div class="container table-responsive py-2" style="margin-top: -15px;"> 
+  <table id="data">
+    <tr>
+      <th>Nombres</th>
+      <th>Apellidos</th>
+      <th>Carrera</th>
+      <th>Eliminar</th>
+    </tr>
+    <tr *ngFor="let usuario of registros">
+          <td style="width:19em">{{usuario.nombre}}</td>
+          <td style="width:19em">{{usuario.apellidos}}</td>
+          <td style="width:19em">{{usuario.carrera}}</td>
+          <td style="width: 14em;" class="text-center" ><button class="btn btn-danger" (click)="delete(usuario)" >ELIMINAR</button></td>
+        
+    </tr>
+  </table>
+    </div>
+    
+  </body>
+  
+  <app-datos (childButtonEvent)="receivedMessageHandler($event)"></app-datos>
